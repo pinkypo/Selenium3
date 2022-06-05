@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-05T00:01:32 PDT" name="ABCBank by groups" finished-at="2022-06-05T00:01:32 PDT" duration-ms="56">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNGGroupsDemo.test1()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" name="test1" class="Demo.TestNGGroupsDemo"/>
+        <method signature="TestNGGroupsDemo.test2()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" name="test2" class="Demo.TestNGGroupsDemo"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestNGGroupsDemo.test3()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" name="test3" class="Demo.TestNGGroupsDemo"/>
+        <method signature="TestNGGroupsDemo.test4()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" name="test4" class="Demo.TestNGGroupsDemo"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-06-05T00:01:32 PDT" name="GRP-Sanity,Regression" finished-at="2022-06-05T00:01:32 PDT" duration-ms="56">
+      <class name="Demo.TestNGGroupsDemo">
+        <test-method signature="test1()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" started-at="2022-06-05T00:01:32 PDT" name="test1" finished-at="2022-06-05T00:01:32 PDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" started-at="2022-06-05T00:01:32 PDT" name="test2" finished-at="2022-06-05T00:01:32 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" started-at="2022-06-05T00:01:32 PDT" name="test3" finished-at="2022-06-05T00:01:32 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:Demo.TestNGGroupsDemo@313b2ea6]" started-at="2022-06-05T00:01:32 PDT" name="test4" finished-at="2022-06-05T00:01:32 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Demo.TestNGGroupsDemo -->
+    </test> <!-- GRP-Sanity,Regression -->
+  </suite> <!-- ABCBank by groups -->
+</testng-results>
